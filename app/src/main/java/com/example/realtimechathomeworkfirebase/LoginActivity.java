@@ -39,10 +39,6 @@ public class LoginActivity extends AppCompatActivity {
     /**
      *.
      */
-   private DatabaseReference databaseReference;
-    /**
-     *.
-     */
    private TextView resetPassword;
 
     @Override
