@@ -37,4 +37,4 @@ jobs:
         uses: yutailang0119/action-android-lint@v1.0.2
         with:
         # The file path of the XML lint report produced by gradle
-         xml_path: build/reports/lint-results.xml
+#          xml_path: build/reports/lint-results.xml
