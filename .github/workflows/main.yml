@@ -35,9 +35,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-#       - name: GitHub Action for Android Lint
+          - name: GitHub Action for Android Lint
+
+            uses: yutailang0119/action-android-lint@f297390fac50d965dd6905b89ea67214e6b30c7c
 #          # You may pin to the exact commit or the version.
-#          # uses: yutailang0119/action-android-lint@f297390fac50d965dd6905b89ea67214e6b30c7c
 #         uses: yutailang0119/action-android-lint@v1.0.2
 #         with:
 #         # The file path of the XML lint report produced by gradle
