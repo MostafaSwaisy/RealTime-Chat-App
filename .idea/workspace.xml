@@ -40,7 +40,64 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RealTimeChatHomeWorkFireBase" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RealTimeChatHomeWorkFireBase" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RealTimeChatHomeWorkFireBase" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RealTimeChatHomeWorkFireBase" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RealTimeChatHomeWorkFireBase" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="install" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RealTimeChatHomeWorkFireBase" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RealTimeChatHomeWorkFireBase" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RealTimeChatHomeWorkFireBase" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -95,7 +152,7 @@
       <recent name="G:\Samples\RealTimeChatHomeWorkFireBase\app" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -154,6 +211,70 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RealTimeChatHomeWorkFireBase [androidDependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="androidDependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RealTimeChatHomeWorkFireBase [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RealTimeChatHomeWorkFireBase [wrapper]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="wrapper" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.RealTimeChatHomeWorkFireBase [wrapper]" />
+        <item itemvalue="Gradle.RealTimeChatHomeWorkFireBase [signingReport]" />
+        <item itemvalue="Gradle.RealTimeChatHomeWorkFireBase [androidDependencies]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -190,6 +311,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
       <path value="$PROJECT_DIR$/RealTimeChat" />
@@ -200,10 +322,10 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1678" y="94" key="#Notifications" timestamp="1601222139908">
+    <state x="1678" y="94" key="#Notifications" timestamp="1601223860818">
       <screen x="1366" y="1" width="1440" height="870" />
     </state>
-    <state x="1678" y="94" key="#Notifications/0.0.1366.738/1366.1.1440.870@1366.1.1440.870" timestamp="1601222139908" />
+    <state x="1678" y="94" key="#Notifications/0.0.1366.738/1366.1.1440.870@1366.1.1440.870" timestamp="1601223860818" />
     <state x="498" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1600369925730">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -219,30 +341,34 @@
     </state>
     <state x="460" y="71" width="440" height="543" key="FileChooserDialogImpl/0.0.1360.738@0.0.1360.738" timestamp="1595317724042" />
     <state x="1853" y="85" key="FileChooserDialogImpl/0.0.1366.738/1366.1.1440.870@1366.1.1440.870" timestamp="1601220384367" />
-    <state width="1397" height="285" key="GridCell.Tab.0.bottom" timestamp="1600626539045">
+    <state width="1397" height="285" key="GridCell.Tab.0.bottom" timestamp="1601224986071">
       <screen x="1366" y="1" width="1440" height="870" />
     </state>
-    <state width="1397" height="285" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.1.1440.870@1366.1.1440.870" timestamp="1600626539045" />
+    <state width="1397" height="285" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.1.1440.870@1366.1.1440.870" timestamp="1601224986071" />
     <state width="1323" height="302" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600371749001" />
-    <state width="1397" height="285" key="GridCell.Tab.0.center" timestamp="1600626539045">
+    <state width="1397" height="285" key="GridCell.Tab.0.center" timestamp="1601224986071">
       <screen x="1366" y="1" width="1440" height="870" />
     </state>
-    <state width="1397" height="285" key="GridCell.Tab.0.center/0.0.1366.738/1366.1.1440.870@1366.1.1440.870" timestamp="1600626539045" />
+    <state width="1397" height="285" key="GridCell.Tab.0.center/0.0.1366.738/1366.1.1440.870@1366.1.1440.870" timestamp="1601224986071" />
     <state width="1323" height="302" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1600371749001" />
-    <state width="1397" height="285" key="GridCell.Tab.0.left" timestamp="1600626539045">
+    <state width="1397" height="285" key="GridCell.Tab.0.left" timestamp="1601224986071">
       <screen x="1366" y="1" width="1440" height="870" />
     </state>
-    <state width="1397" height="285" key="GridCell.Tab.0.left/0.0.1366.738/1366.1.1440.870@1366.1.1440.870" timestamp="1600626539045" />
+    <state width="1397" height="285" key="GridCell.Tab.0.left/0.0.1366.738/1366.1.1440.870@1366.1.1440.870" timestamp="1601224986071" />
     <state width="1323" height="302" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1600371749001" />
-    <state width="1397" height="285" key="GridCell.Tab.0.right" timestamp="1600626539045">
+    <state width="1397" height="285" key="GridCell.Tab.0.right" timestamp="1601224986071">
       <screen x="1366" y="1" width="1440" height="870" />
     </state>
-    <state width="1397" height="285" key="GridCell.Tab.0.right/0.0.1366.738/1366.1.1440.870@1366.1.1440.870" timestamp="1600626539045" />
+    <state width="1397" height="285" key="GridCell.Tab.0.right/0.0.1366.738/1366.1.1440.870@1366.1.1440.870" timestamp="1601224986071" />
     <state width="1323" height="302" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1600371749001" />
-    <state x="1587" y="78" key="SettingsEditor" timestamp="1601222150509">
+    <state x="1666" y="178" key="IDE.errors.dialog" timestamp="1601224966879">
       <screen x="1366" y="1" width="1440" height="870" />
     </state>
-    <state x="1587" y="78" key="SettingsEditor/0.0.1366.738/1366.1.1440.870@1366.1.1440.870" timestamp="1601222150509" />
+    <state x="1666" y="178" key="IDE.errors.dialog/0.0.1366.738/1366.1.1440.870@1366.1.1440.870" timestamp="1601224966879" />
+    <state x="1587" y="78" key="SettingsEditor" timestamp="1601223879949">
+      <screen x="1366" y="1" width="1440" height="870" />
+    </state>
+    <state x="1587" y="78" key="SettingsEditor/0.0.1366.738/1366.1.1440.870@1366.1.1440.870" timestamp="1601223879949" />
     <state x="1914" y="347" key="VCS.EditChangelistDialog" timestamp="1601220463009">
       <screen x="1366" y="1" width="1440" height="870" />
     </state>
@@ -255,6 +381,10 @@
       <screen x="1366" y="1" width="1440" height="870" />
     </state>
     <state x="1458" y="93" width="1256" height="686" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.738/1366.1.1440.870@1366.1.1440.870" timestamp="1600623107618" />
+    <state x="1458" y="93" width="1256" height="686" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601223038600">
+      <screen x="1366" y="1" width="1440" height="870" />
+    </state>
+    <state x="1458" y="93" width="1256" height="686" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.738/1366.1.1440.870@1366.1.1440.870" timestamp="1601223038600" />
     <state x="1646" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1601220594275">
       <screen x="1366" y="1" width="1440" height="870" />
     </state>

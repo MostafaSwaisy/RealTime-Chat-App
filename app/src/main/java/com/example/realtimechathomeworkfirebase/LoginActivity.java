@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -21,15 +20,33 @@ import com.google.firebase.database.DatabaseReference;
 import com.rengwuxian.materialedittext.MaterialEditText;
 
 public class LoginActivity extends AppCompatActivity {
-
-    MaterialEditText email, password;
-    Button btn_login;
-    FirebaseAuth firebaseAuth;
-    DatabaseReference databaseReference;
-    TextView reset_password;
+    /**
+     *.
+     */
+    private MaterialEditText email;
+    /**
+     *.
+     */
+    private MaterialEditText password;
+    /**
+     *.
+     */
+  private   Button btnLogin;
+    /**
+     *.
+     */
+   private FirebaseAuth firebaseAuth;
+    /**
+     *.
+     */
+   private DatabaseReference databaseReference;
+    /**
+     *.
+     */
+   private TextView resetPassword;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected final void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
@@ -39,34 +56,48 @@ public class LoginActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         email = findViewById(R.id.email);
         password = findViewById(R.id.password);
-        btn_login = findViewById(R.id.btn_login);
-        reset_password = findViewById(R.id.forget_password);
-        reset_password.setOnClickListener(new View.OnClickListener() {
+        btnLogin = findViewById(R.id.btn_login);
+        resetPassword = findViewById(R.id.forget_password);
+        resetPassword.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                startActivity(new Intent(LoginActivity.this, ResetPasswordActivity.class));
+            public void onClick(final View view) {
+                startActivity(new Intent(LoginActivity
+                        .this, ResetPasswordActivity.class));
             }
         });
         firebaseAuth = FirebaseAuth.getInstance();
 
-        btn_login.setOnClickListener(new View.OnClickListener() {
+        btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(final View view) {
                 String mail = email.getText().toString();
                 String pass = password.getText().toString();
                 if (TextUtils.isEmpty(mail) || TextUtils.isEmpty(pass)) {
-                    Toast.makeText(LoginActivity.this, "there is a field is empty", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity
+                            .this, "there is a field is empty", Toast
+                            .LENGTH_SHORT)
+                            .show();
                 } else {
-                    firebaseAuth.signInWithEmailAndPassword(mail, pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    firebaseAuth
+                            .signInWithEmailAndPassword(mail, pass)
+                            .addOnCompleteListener(
+                                    new OnCompleteListener<AuthResult>() {
                         @Override
-                        public void onComplete(@NonNull Task<AuthResult> task) {
+                        public void
+                        onComplete(@NonNull final Task<AuthResult> task) {
                             if (task.isSuccessful()) {
-                                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                                Intent intent = new Intent(LoginActivity
+                                        .this, MainActivity.class);
+                                intent.addFlags(Intent
+                                        .FLAG_ACTIVITY_CLEAR_TASK | Intent
+                                        .FLAG_ACTIVITY_NEW_TASK);
                                 startActivity(intent);
                                 finish();
                             } else {
-                                Toast.makeText(LoginActivity.this, "Auth operation is failed!", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(LoginActivity
+                                        .this, "Auth operation is failed!",
+                                        Toast.LENGTH_SHORT)
+                                        .show();
                             }
                         }
                     });
