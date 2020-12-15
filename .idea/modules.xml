@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RealTimeChatHomeWorkFireBase.iml" filepath="$PROJECT_DIR$/RealTimeChatHomeWorkFireBase.iml" group="RealTimeChatHomeWorkFireBase" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Samples-RealTimeChatHomeWorkFireBase.iml" filepath="$PROJECT_DIR$/.idea/modules/Samples-RealTimeChatHomeWorkFireBase.iml" group="RealTimeChatHomeWorkFireBase" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="RealTimeChatHomeWorkFireBase/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RealTimeChatHomeWorkFireBase.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RealTimeChatHomeWorkFireBase.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Samples.RealTimeChatHomeWorkFireBase.iml" filepath="$PROJECT_DIR$/.idea/modules/Samples.RealTimeChatHomeWorkFireBase.iml" />
     </modules>
   </component>
 </project>
